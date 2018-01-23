@@ -57,6 +57,8 @@ int main(int argc, char *argv[])
         qDebug() << answer;
 
         QThread::sleep(1);
+        
+        // all done, close the connection
 
         serial.close();
     }
